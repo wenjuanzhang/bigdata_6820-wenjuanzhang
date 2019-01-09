@@ -13,7 +13,7 @@ def calculate_variance(lst):
 
   for element in lst:
     diff = element - mean
-    diffsq = np.square(diff)
+    diffsq = diff*diff 
     sum_diffsq += diffsq
 
   sum_diffsq = sum_diffsq/(len(lst)-1)
