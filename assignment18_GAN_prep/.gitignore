@@ -1,0 +1,10 @@
+*.h5
+.ipynb_checkpoints
+*.log
+*.pyc
+*.zip
+*.mat
+*.gz
+*.pkl
+*.o*
+images/
